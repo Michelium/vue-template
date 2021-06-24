@@ -1,6 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 
+import "@/assets/css/app.css";
+
+require('bootstrap');
+
 const routes = [
   {
     path: '/',
